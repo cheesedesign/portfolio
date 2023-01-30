@@ -561,12 +561,7 @@
         color: #ddede2;
     }
 
-    .works-wrapper {
-        width: 100%;
-    }
-
     .works-img {
-        margin: 0 auto;
         width: 300px;
         height: 200px;
     }
@@ -579,10 +574,10 @@
     }
 
     .item {
+        margin: 0 auto;
         width: 300px;
         height: 200px;
         overflow: hidden;
-        margin: 10px 8px 10px 16px;
         position: relative;
         border-radius: 30px;
         margin-bottom: 50px;
