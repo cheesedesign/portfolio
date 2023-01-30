@@ -458,7 +458,7 @@
     }
 
     #menu-btn-check:checked~.menu-content {
-        left: 20%;
+        left: 0;
     }
 
 
