@@ -360,7 +360,6 @@
         justify-content: center;
         align-items: center;
         z-index: 90;
-        background-color: #3584bb;
     }
 
     .menu-btn span,
@@ -371,7 +370,7 @@
         height: 3px;
         width: 25px;
         border-radius: 3px;
-        background-color: #ffffff;
+        background-color: #A0C0C3;
         position: absolute;
     }
 
@@ -385,7 +384,6 @@
 
     #menu-btn-check:checked~.menu-btn span {
         background-color: rgba(255, 255, 255, 0);
-        /*メニューオープン時は真ん中の線を透明にする*/
     }
 
     #menu-btn-check:checked~.menu-btn span::before {
@@ -409,7 +407,7 @@
         top: 0;
         left: 0;
         z-index: 80;
-        background-color: #3584bb;
+        background-color: #ddede2;
     }
 
     .menu-content ul {
@@ -417,7 +415,6 @@
     }
 
     .menu-content ul li {
-        border-bottom: solid 1px #ffffff;
         list-style: none;
     }
 
@@ -426,7 +423,7 @@
         width: 100%;
         font-size: 15px;
         box-sizing: border-box;
-        color: #ffffff;
+        color: #59482E;
         text-decoration: none;
         padding: 9px 15px 10px 0;
         position: relative;
@@ -436,8 +433,6 @@
         content: "";
         width: 7px;
         height: 7px;
-        border-top: solid 2px #ffffff;
-        border-right: solid 2px #ffffff;
         transform: rotate(45deg);
         position: absolute;
         right: 11px;
@@ -450,15 +445,12 @@
         position: fixed;
         top: 0;
         left: 100%;
-        /*leftの値を変更してメニューを画面外へ*/
         z-index: 80;
-        background-color: #3584bb;
         transition: all 0.5s;
-        /*アニメーション設定*/
     }
 
     #menu-btn-check:checked~.menu-content {
-        left: 0;
+        left: 50%;
     }
 
 
