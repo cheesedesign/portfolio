@@ -93,6 +93,7 @@
         color: #59482E;
     }
 
+
     .top-read p {
         font-size: 2vw;
         text-align: right;
@@ -196,7 +197,6 @@
 
     .works-img {
         width: 100%;
-        margin-bottom: 100px;
     }
 
     .works-img img {
@@ -206,6 +206,40 @@
         border-radius: 30px;
     }
 
+
+    .item {
+        width: 22vw;
+        height: 16.5vw;
+        overflow: hidden;
+        margin: 10px 8px 10px 16px;
+        position: relative;
+        border-radius: 30px;
+        margin-bottom: 100px;
+    }
+
+    .item-texts {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        background-color: rgba(255, 255, 255, 0.781);
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        padding-top: 100px;
+    }
+
+    .item-text {
+        font-size: 130%;
+        text-align: center;
+        color: #59482E;
+        padding-top: 30px;
+    }
+
+    .item-texts:hover {
+        opacity: 1;
+    }
 
     footer {
         background-color: #ddede2;
