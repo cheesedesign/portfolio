@@ -450,7 +450,7 @@
     }
 
     #menu-btn-check:checked~.menu-content {
-        left: ;
+        left: 50%;
     }
 
 
