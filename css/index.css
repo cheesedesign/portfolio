@@ -587,7 +587,7 @@
         top: 0;
         left: 0;
         opacity: 0;
-        background-color: rgba(111, 111, 111, 0.8);
+        background-color: rgba(146, 146, 146, 0.8);
         -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease;
     }
