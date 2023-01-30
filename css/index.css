@@ -450,7 +450,7 @@
     }
 
     #menu-btn-check:checked~.menu-content {
-        left: 50%;
+        left: ;
     }
 
 
@@ -595,7 +595,7 @@
         top: 0;
         left: 0;
         opacity: 0;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(111, 111, 111, 0.8);
         -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease;
     }
@@ -605,9 +605,10 @@
         transform: translate(-50%, -50%);
         top: 50%;
         left: 50%;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         color: #ddede2;
+        font-weight: bold;
     }
 
     .item-texts {
