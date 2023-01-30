@@ -227,14 +227,16 @@
         background-color: rgba(255, 255, 255, 0.781);
         -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease;
-        padding-top: 100px;
     }
 
     .item-text {
-        font-size: 130%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        font-size: 1vw;
         text-align: center;
         color: #59482E;
-        padding-top: 30px;
     }
 
     .item-texts:hover {
@@ -458,13 +460,49 @@
     .works-img {
         margin: 0 auto;
         width: 300px;
-        height: 300px;
+        height: 200px;
     }
 
     .works-img img {
         width: 100%;
         object-fit: fill;
         border-radius: 30px;
+    }
+
+    .item {
+        width: 300px;
+        height: 200px;
+        overflow: hidden;
+        margin: 10px 8px 10px 16px;
+        position: relative;
+        border-radius: 30px;
+        margin-bottom: 50px;
+    }
+
+    .item-texts {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+
+    .item-text {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        font-size: 16px;
+        text-align: center;
+        color: #59482E;
+    }
+
+    .item-texts {
+        opacity: 1;
     }
 
     footer {
