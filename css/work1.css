@@ -1,0 +1,22 @@
+.work {
+    display: flex;
+}
+
+.work-img_pc {
+    width: 50%;
+    margin-bottom: 200px;
+}
+
+.work-img_pc img {
+    max-width: 80%;
+    height: auto;
+}
+
+.work-img_mobile {
+    width: 50%;
+}
+
+.work-img_mobile img {
+    max-width: 60%;
+    height: auto;
+}
