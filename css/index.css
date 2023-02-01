@@ -202,12 +202,12 @@
     }
 
     .works-img {
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        height: auto;
     }
 
     .works-img img {
-        width: 22vw;
+        width: 20vw;
         height: 17vw;
         object-fit: fill;
         border-radius: 30px;
