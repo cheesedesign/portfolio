@@ -552,18 +552,14 @@
         color: #ddede2;
     }
 
-    .works-img {
-        width: 300px;
-    }
-
     .works-img img {
         width: 100%;
         border: 0.5px solid #59482E;
     }
 
     .item {
-        margin: 0 auto;
         width: 90%;
+        margin: 0 auto;
         overflow: hidden;
         position: relative;
         margin-bottom: 50px;
