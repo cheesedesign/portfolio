@@ -4,7 +4,7 @@
 
 .work-img_pc {
     width: 50%;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .work-img_pc img {
@@ -22,6 +22,10 @@
     height: auto;
 }
 
+.work-info {
+    width: 50%;
+}
+
 .work-topic {
     font-weight: bold;
 }
@@ -32,4 +36,11 @@
 
 .work-text {
     margin: 20px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.work-text img {
+    max-width: 100%;
+    height: auto;
 }
