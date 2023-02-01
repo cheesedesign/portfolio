@@ -21,3 +21,15 @@
     max-width: 60%;
     height: auto;
 }
+
+.work-topic {
+    font-weight: bold;
+}
+
+.work-topic p {
+    font-size: 1.2vw;
+}
+
+.work-text {
+    margin: 20px;
+}
