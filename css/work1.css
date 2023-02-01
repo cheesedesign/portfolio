@@ -1,46 +1,103 @@
-.work {
-    display: flex;
+@media screen and (min-width: 1000px) {
+
+    .work {
+        display: flex;
+    }
+
+    .work-img_pc {
+        width: 50%;
+        margin-bottom: 100px;
+    }
+
+    .work-img_pc img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .work-img_mobile {
+        width: 50%;
+        margin-bottom: 200px;
+    }
+
+    .work-img_mobile img {
+        max-width: 60%;
+        height: auto;
+    }
+
+    .work-info {
+        width: 50%;
+    }
+
+    .work-topic {
+        font-weight: bold;
+    }
+
+    .work-topic p {
+        font-size: 1.2vw;
+    }
+
+    .work-text {
+        margin: 20px;
+        line-height: 2;
+        margin-bottom: 50px;
+    }
+
+    .work-text img {
+        max-width: 100%;
+        height: auto;
+    }
+
 }
 
-.work-img_pc {
-    width: 50%;
-    margin-bottom: 100px;
-}
+@media screen and (max-width: 999px) {
 
-.work-img_pc img {
-    max-width: 80%;
-    height: auto;
-}
 
-.work-img_mobile {
-    width: 50%;
-    margin-bottom: 200px;
-}
+    .work {
+        width: 90%;
+        margin: 0 auto;
+    }
 
-.work-img_mobile img {
-    max-width: 60%;
-    height: auto;
-}
+    .work-img_pc {
+        width: 100%;
+        margin-bottom: 100px;
+    }
 
-.work-info {
-    width: 50%;
-}
+    .work-img_pc img {
+        max-width: 100%;
+        height: auto;
+    }
 
-.work-topic {
-    font-weight: bold;
-}
+    .work-img_mobile {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
 
-.work-topic p {
-    font-size: 1.2vw;
-}
+    .work-img_mobile img {
+        max-width: 100%;
+        height: auto;
+    }
 
-.work-text {
-    margin: 20px;
-    line-height: 2;
-    margin-bottom: 50px;
-}
+    .work-info {
+        width: 100%;
+    }
 
-.work-text img {
-    max-width: 100%;
-    height: auto;
+    .work-topic {
+        font-weight: bold;
+    }
+
+    .work-topic p {
+        font-size: 1.2vw;
+    }
+
+    .work-text {
+        margin: 20px;
+        line-height: 2;
+        margin-bottom: 50px;
+    }
+
+    .work-text img {
+        max-width: 100%;
+        height: auto;
+    }
 }
