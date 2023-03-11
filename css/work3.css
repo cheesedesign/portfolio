@@ -1,0 +1,50 @@
+@media screen and (min-width: 1000px) {
+
+    .work-img_logo {
+        width: 30%;
+        margin-bottom: 100px;
+    }
+
+    .work-img_logo img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .work-img_namecard {
+        width: 50%;
+        margin-bottom: 100px;
+    }
+
+    .work-img_namecard img {
+        max-width: 80%;
+        height: auto;
+        border: 0.5px solid;
+    }
+
+}
+
+@media screen and (max-width: 999px) {
+
+    .work-img_logo {
+        width: 100%;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .work-img_logo img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .work-img_namecard {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .work-img_namecard img {
+        max-width: 100%;
+        height: auto;
+        border: 0.5px solid;
+    }
+
+}
