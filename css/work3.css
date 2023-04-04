@@ -1,7 +1,13 @@
 @media screen and (min-width: 1000px) {
 
+    .work-logo {
+        width: 50%;
+        margin-bottom: 100px;
+    }
+
+
     .work-img_logo {
-        width: 30%;
+        width: 50%;
         margin-bottom: 100px;
     }
 
@@ -11,7 +17,7 @@
     }
 
     .work-img_namecard {
-        width: 50%;
+        width: 80%;
         margin-bottom: 100px;
     }
 
